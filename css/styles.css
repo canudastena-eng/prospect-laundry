@@ -405,16 +405,16 @@ section { padding: var(--section-pad) 0; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(59,130,246,0.22);
+  background: rgba(59,130,246,0.18);
   border: 1px solid rgba(59,130,246,0.35);
   color: #93C5FD;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 8px 20px;
+  padding: 6px 16px;
   border-radius: 100px;
-  margin-bottom: 48px; /* Increased top-down breathing space */
+  margin-bottom: 28px;
 }
 
 .hero h1 {
@@ -447,12 +447,11 @@ section { padding: var(--section-pad) 0; }
 }
 
 .hero-stats {
-  margin-top: 80px; /* More breathing room from buttons */
+  margin-top: 56px;
   display: flex;
   gap: 72px; /* Wider gap for professional feel */
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 24px; /* Space from wave */
 }
 
 .hero-stat-item { text-align: center; }
