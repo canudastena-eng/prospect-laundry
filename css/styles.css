@@ -414,6 +414,7 @@ section { padding: var(--section-pad) 0; }
   text-transform: uppercase;
   padding: 6px 16px;
   border-radius: 100px;
+  margin-top: 24px; /* Move badge down from the top border */
   margin-bottom: 28px;
 }
 
