@@ -368,14 +368,13 @@ section { padding: var(--section-pad) 0; }
 /* ---------- HERO (shared base) ---------- */
 .hero {
   position: relative;
-  min-height: 850px;
-  min-height: 100svh;
+  height: 100vh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: var(--navy);
   overflow: hidden;
-  padding-top: var(--nav-height);
 }
 
 .hero-bg {
@@ -397,7 +396,7 @@ section { padding: var(--section-pad) 0; }
   z-index: 2;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 80px 24px;
+  padding: 40px 24px;
   width: 100%;
   text-align: center;
 }
@@ -406,16 +405,16 @@ section { padding: var(--section-pad) 0; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(59,130,246,0.22);
+  background: rgba(59,130,246,0.18);
   border: 1px solid rgba(59,130,246,0.35);
   color: #93C5FD;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 8px 20px;
+  padding: 6px 16px;
   border-radius: 100px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .hero h1 {
@@ -448,12 +447,11 @@ section { padding: var(--section-pad) 0; }
 }
 
 .hero-stats {
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
-  gap: 64px;
+  gap: 48px;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 40px;
 }
 
 .hero-stat-item { opacity: 0.85; }
